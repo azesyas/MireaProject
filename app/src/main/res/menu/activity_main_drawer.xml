@@ -25,6 +25,10 @@
             android:icon="@drawable/ic_menu_share"
             android:title="Calculate"
             tools:ignore="HardcodedText" />
+        <item
+            android:id="@+id/nav_sensor"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Sensor" />
     </group>
 
     <item android:title="Communicate">
@@ -41,6 +45,14 @@
                 android:id="@+id/nav_brouser"
                 android:icon="@drawable/ic_menu_share"
                 android:title="Brouser" />
+            <item
+                android:id="@+id/nav_photo"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Photo" />
+            <item
+                android:id="@+id/nav_media"
+                android:icon="@drawable/ic_menu_share"
+                android:title="MediaRecord" />
         </menu>
     </item>
 

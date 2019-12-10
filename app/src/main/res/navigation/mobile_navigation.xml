@@ -49,5 +49,20 @@
         android:name="ru.mirea.chumakova.mireaproject1.WebViewFragment"
         android:label="fragment_web_view2"
         tools:layout="@layout/fragment_web_view2" />
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="ru.mirea.chumakova.mireaproject1.SensorFragment"
+        android:label="fragment_sensor"
+        tools:layout="@layout/fragment_sensor" />
+    <fragment
+        android:id="@+id/nav_photo"
+        android:name="ru.mirea.chumakova.mireaproject1.PhotoFragment"
+        android:label="fragment_photo"
+        tools:layout="@layout/fragment_photo" />
+    <fragment
+        android:id="@+id/nav_media"
+        android:name="ru.mirea.chumakova.mireaproject1.MediaRecord"
+        android:label="fragment_media_record"
+        tools:layout="@layout/fragment_media_record" />
 
 </navigation>
